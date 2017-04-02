@@ -63,7 +63,18 @@
 
     </main>
     <div class="sidemenu">
-      sidemenu
+      <h2 class="heading">Ranking</h2>
+      <ol class="ranking">
+        <% for (let i = 0; i < 2; i++) { %>
+        <li class="ranking-item">
+          <a href="#">
+            <img src="./images/ranking.jpg" alt="Graph" class="image">
+            <span class="order"></span>
+            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+          </a>
+        </li>
+        <% } %>
+      </ol>
     </div>
   </div>
   <footer class="footer">
